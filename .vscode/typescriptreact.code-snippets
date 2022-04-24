@@ -1,0 +1,26 @@
+{
+  "React component": {
+    "scope": "typescriptreact",
+    "prefix": "rc",
+    "body": [
+      "import { FunctionComponent as FC } from 'preact';",
+      "import css from './${0:$TM_FILENAME_BASE}.module.css';",
+      "",
+      "type I${0:$TM_FILENAME_BASE}Props = {",
+      "}",
+      "",
+      "export const ${0:$TM_FILENAME_BASE}: FC<I${0:$TM_FILENAME_BASE}Props> = ({}) => {",
+      "    return (",
+      "        <div className={css.container}>${0:$TM_FILENAME_BASE}</div>",
+      "    );",
+      "}",
+      ""
+    ],
+    "description": "create react component"
+  },
+  "useState": {
+    "scope": "typescript,typescriptreact",
+    "prefix": "us",
+    "body": "const [$1, set${1/(^.)(.*)/${1:/upcase}$2/}] = useState(${2|'',false|});"
+  }
+}

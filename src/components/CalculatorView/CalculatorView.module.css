@@ -1,0 +1,17 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculatorInput {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.backspace {
+    flex-shrink: 0;
+}

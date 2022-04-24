@@ -1,0 +1,22 @@
+.container {
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-right: 20px;
+  }
+.inputMain {
+    font-size: 30px;
+    text-align: right;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+  }
+.history {
+    text-align: right;
+    font-size: 20px;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+  }
+.separator {
+    height: 1;
+    background-color: '#CCCCCC';
+    margin: '5px 0';
+  }

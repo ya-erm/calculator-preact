@@ -1,0 +1,10 @@
+{
+  "editor.formatOnSave": true,
+  "stylelint.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": true
+  },
+  "cSpell.language": "ru,en,en-GB,en-US,ru-RU",
+  "cSpell.enabled": true,
+  "cSpell.words": ["clsx", "preact", "svgr", "vite"]
+}
