@@ -5,7 +5,7 @@
 }
 
 .inputMain {
-    font-size: 30;
+    font-size: 30px;
     text-align: right;
     white-space: pre-wrap;
     overflow-wrap: break-word;
@@ -21,5 +21,5 @@
 .separator {
     height: 1px;
     background-color: #CCCCCC;
-    margin: 5x 0;
+    margin: 5px 0;
 }
